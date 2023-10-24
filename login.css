@@ -1,0 +1,108 @@
+body{
+  background-color: rgb(135, 37, 148);
+  background-image: url('gftetf.jpg');
+}
+
+div{
+ backdrop-filter: blur(5px);
+  width: 400px;
+  height: 480px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: inset 0 0 0 0 rgb(135, 37, 148);
+  transition: ease-in-out 0.5s;
+}
+/* box-shadow and transition enables the color of te div to trasition */
+div:hover{
+  box-shadow: inset 0 500px 0 0 rgb(135, 37, 148);
+  transition: ease-in-out 0.5s;
+}
+
+
+h1{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* Removes all decoration from links */
+a{
+  text-decoration: none;
+}
+
+
+table{
+  text-align: center;
+  margin: auto;
+  font-size: large;
+}
+
+.login{
+  color: white;
+  padding:15px 60px 15px 60px;
+  border-radius: 4px;
+  background: linear-gradient(to right, rgb(135, 37, 148),  rgb(241, 75, 205) );
+}
+.Signup{
+  padding:13px 60px 13px 60px;
+  border-style:groove;
+  border-radius: 5px;
+  border-color: white;
+  color: black;
+}
+
+input[type="email"]{
+  width:330px;
+  height: 50px;
+  margin-top: 40px;
+  border-radius: 5px;
+  border-style: ridge;
+  border-color: white;
+}
+input[type="password"]{
+  width:330px;
+  height: 50px;
+  margin-top: 25px;
+  border-radius: 5px;
+  border-color: white;
+  border-style: ridge;
+}
+
+
+.forgot{
+  display: flex; 
+  justify-content: left; 
+  margin-bottom: 30px;
+}
+
+.forgot a{
+  text-decoration: none;
+  color:  rgb(241, 75, 205) ;
+}
+
+.biglog{
+  color: white;
+  padding:15px 150px 15px 150px;
+  border-radius: 4px;
+  background: linear-gradient(to right, rgb(135, 37, 148),  rgb(241, 75, 205) );
+ 
+}
+
+.forgo{
+ 
+  margin-top: 30px;
+}
+label{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+ 
+}
+
+.last{
+  color:  rgb(241, 75, 205) ;
+}
